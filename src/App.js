@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Box, makeStyles } from "@material-ui/core";
+import { withRouter } from "react-router";
 
-function App() {
+import MainRouter from "./router";
+import Header from "./components/Header";
+import SideBar from "./components/SideBar";
+import "./App.css";
+
+const useStyles = makeStyles((theme) => ({
+  content: {
+    display: 'flex',
+    width: `calc(100% - 50px)`,
+    height: "calc(100vh - 82px)",
+    margin: theme.spacing(2),
+  },
+}));
+
+function App(props) {
+  const classes = useStyles();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Box
+        display="flex"
+        height={`calc(100vh - 50px))`}
+      >
+        <SideBar {...props} />
+        <Box className={classes.content}>
+          <MainRouter {...props} />
+        </Box>
+      </Box>
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);

@@ -1,0 +1,73 @@
+[
+  {
+    "caseNo": 190001,
+    "branch": "Branch 1",
+    "reportingMethod": "In Person",
+    "date": "12-02-2021",
+    "time": "12:35:00",
+    "category": "Grievance",
+    "subCategory": "Complaints",
+    "priority": "Low",
+    "nature": "Health",
+    "caseManager": "Daryl",
+    "caseReporter": "Tanner",
+    "caseStatus": "Not Prepared"
+  },
+  {
+    "caseNo": 190002,
+    "branch": "Branch 2",
+    "reportingMethod": "Call",
+    "date": "12-02-2021",
+    "time": "12:35:01",
+    "category": "Employment",
+    "subCategory": "Query",
+    "priority": "Medium",
+    "nature": "Transport",
+    "caseManager": "Titus",
+    "caseReporter": "Clinton",
+    "caseStatus": "Progress"
+  },
+  {
+    "caseNo": 190003,
+    "branch": "Branch 3",
+    "reportingMethod": "In Person",
+    "date": "12-02-2021",
+    "time": "12:35:02",
+    "category": "Security",
+    "subCategory": "Complaints",
+    "priority": "High",
+    "nature": "Property",
+    "caseManager": "Alfonzo",
+    "caseReporter": "Tanner",
+    "caseStatus": "Not Prepared"
+  },
+  {
+    "caseNo": 190004,
+    "branch": "Branch 4",
+    "reportingMethod": "Call",
+    "date": "12-02-2021",
+    "time": "12:35:10",
+    "category": "General",
+    "subCategory": "Query",
+    "priority": "Low",
+    "nature": "Transport",
+    "caseManager": "Leif",
+    "caseReporter": "Clinton",
+    "caseStatus": "Progress"
+  },
+  {
+    "caseNo": 190005,
+    "branch": "Branch 2",
+    "reportingMethod": "In Person",
+    "date": "12-02-2021",
+    "time": "12:37:02",
+    "category": "Employment",
+    "subCategory": "Query",
+    "priority": "Medium",
+    "nature": "Transport",
+    "caseManager": "Titus",
+    "caseReporter": "Clinton",
+    "caseStatus": "Progress"
+  }
+]
+
